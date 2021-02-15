@@ -95,5 +95,133 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    position: fixed;
+    background-color: rgba( 255, 255, 255, .8);
 
+}
+
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.logo img{
+    width: 80%;
+}
+
+.links{
+    width:60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* top section */
+
+#top{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+button{
+    margin-top: 10%;
+    width: 70%;
+    padding: 2%;
+    background-color: FBFFFB;
+}
+
+/* about */
+
+#about{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20% 0;
+    background-image: url(../images/about-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about div{
+    width: 20%;
+    margin-right: 10%;
+}
+
+/* plant section */
+
+.wrapper{
+    display: flex;
+    text-align: center;
+}
+
+.wrapper div{
+    width: 50%;
+}
+
+.shop-bg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.succulents{
+    background-image: url(../images/succulants.jpg);
+}
+
+.cacti{
+    background-image: url(../images/cacti.jpg);
+}
+
+.tropicals{
+    background-image: url(../images/tropicals.jpg);
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    padding: 4% 0;
+    flex-wrap: wrap;
+    
+}
+
+footer h2{
+    width: 100%;
+    color: ;
+}
+
+footer a{
+    color: ;
+}
+
+footer h3{
+    color: ;
+    text-align: left;
+}
+
+
+.copyright{
+    width: 100%;
+    margin-right: 10%;
+}
+
+.right, .left{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    line-height: 2;
 }
