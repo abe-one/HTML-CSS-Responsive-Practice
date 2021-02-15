@@ -124,7 +124,7 @@ nav{
     height: 80vh;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     background-image: url(../images/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,4 +224,91 @@ footer h3{
     width: 50%;
     justify-content: center;
     line-height: 2;
+}
+
+/* media queries */
+
+/* tablet */ /*screen <=800px rules apply*/
+@media(max-width: 800px){
+    #about{
+         background-color: gray;
+         background-image: none;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+    }
+
+    #about div{
+        width: 50%;
+    }
+
+    .textbox div{
+        width: 80%;
+    }
+}
+
+@media(max-width: 500px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        width: 20%;
+    }
+
+    #about div{
+        margin: 0;
+    }
+
+    .wrapper{
+        flex-direction: column;
+    }
+
+    .wrapper div{
+        width: 100%;
+    }
+
+    .shop-bg{
+        height: 40vh;
+        width: 50%;
+    }
+
+    .mobile-flip{
+        flex-direction: column-reverse;
+    }
+
+    .textbox {
+        width: 80%;
+    }
+
+    foooter{
+        flex-direction: column;
+    }
+
+    .left, .right{
+        width: 100%;
+    }
+
+    .right{
+        order: -1;
+    }
+
+    footer h2{
+        order: -2;
+    }
+
+    footer h3{
+        text-align: center;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+
+    .left{
+        flex-direction: column;
+        text-align: center;
+    }
 }
