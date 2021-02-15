@@ -1,5 +1,7 @@
 # HTML-CSS-Responsive-Practice
 
+Touch
+
 ## Task 1 - Set up the project in Git Hub
 * Create a forked copy of this project
 * Clone your OWN version of the repository
